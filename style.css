@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* transform-origin: top left */ 
+.box{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: red;
+    transform-origin: top left;
+}                       
+.box:hover{
+    transform: rotate(45deg);
+}        

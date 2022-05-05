@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flag{
+    position: relative;
+    margin:  auto ;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    border: 10px solid red;
+    border-radius: 100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 4;
+}
+.blue{
+    width: 150px;
+    height: 150px;
+    border: 10px solid blue;
+    border-radius: 100px;
+    position: absolute;
+    top: 190px;
+    left: 280px;
+    z-index: 3;
+}
+.green{
+    width: 150px;
+    height: 150px;
+    border: 10px solid green;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 360px;
+}
+.black{
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 5;
+    top: 190px;
+    left: 430px;
+}
+.violet{
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(189, 30, 30);
+    border-radius: 100px;
+    position: absolute;
+    z-index: 6;
+    top: 100px;
+    left: 520px;
+
+}
+
+
+
+.earth{
+    width: 500px;
+    height: 500px;
+    top: 500px;
+    border-radius: 500px;
+    border: 5px solid red;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mountain1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    transform: rotate(45deg);
+    background-color: black;
+}
+.mountain2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 350px;
+    transform: rotate(45deg);
+    background-color:black;
+    left: 150px;
+}
+
+
+.box{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 500px;
+    left: 500px;
+    background: violet;
+}
+.left{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+.right{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 180px;
+}
+.center{
+    width: 60px;
+    height: 100%;
+    background: violet;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: 2;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+
+
+.pattern{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 200%;
+    left: 500px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    width: 300px;
+    height: 160px;
+    background-color: blue;
+    position: relative;
+}
+.aylana{
+    width: 250px;
+    height: 250px;
+    border: 50px solid dodgerblue;
+    border-radius: 50%;
+    position: absolute;
+    top: -44px;
+    left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doira{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: gold;
+}
+
+
+
+.check_con{
+    width: 50px;
+    height: 24px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 20px;
+    transition: .5s;
+}
+.yumaloq{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#555;
+    transform: translate(0px, 0.5px);
+    transition: .5s;
+}
+
+#check:checked + .check_con .yumaloq{
+    transform: translate(27px, 0.5px);
+    background-color: blue;
+}
+#check{
+    display: none;
+}
+#check:checked + .check_con{
+    background-color: dodgerblue;
+}
+
+.burchak{
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+.romb{
+    width: 50px;
+    height: 50px;
+    border: 5px solid red;
+    border-radius: 100px;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
